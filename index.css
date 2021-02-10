@@ -1,0 +1,95 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+section{
+    width:33%;
+
+}
+
+img{
+    align-self: center;
+    display: flex;
+    width:100%;
+    max-height: 450px;
+    border-radius: 4px;
+
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(243, 243, 243);
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+}
+
+.filmes{
+    display:flex;
+    width:100%;
+    min-height: max-content;
+    justify-content: center;
+    align-content: center;
+}
+header{
+    font-size: larger;
+    border: gainsboro solid;
+    padding:4px;
+    justify-content: center;
+    text-align: center;
+    margin: 7px;
+}
+nav{
+    display: flex;
+    padding: 4px;
+    font-weight: 700;
+    font-size: 20px;
+    color: black;
+
+}
+p{
+    text-align: justify;
+}
+
+section{
+    padding: 8px;
+    border: gainsboro solid;
+    border-radius: 4px;
+
+}
+h4{
+    padding: 3px;
+    text-align: center;
+}
+footer{
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    width: 100%;
+    padding: 3px;
+    
+}
+#contatos{
+    width: 100%;
+    text-align: right;
+}
+.creditos{
+    text-align: center;
+    width: 100%;
+    padding-top: 5px;
+}
+.links{
+    text-decoration: none;
+    color: black;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
